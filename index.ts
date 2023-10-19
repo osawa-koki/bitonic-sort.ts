@@ -1,7 +1,7 @@
 import shuffle from './src/shuffle'
 import bitonicSort from './src/bitonicSort'
 
-const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+const array = Array.from({ length: 16 }, (_, i) => i + 1)
 
 shuffle(array)
 
